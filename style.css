@@ -6,19 +6,24 @@
 }
 
 body{
-    display: flex;
-    width: 100%;
+
+    width: 100vw;
     height: 100%;
-    
+    display: grid;
+    grid-template-rows: 300px 600px 200px;
 }
 
-#imagem-pricipal{
-    background-image: url("./img/entregadora-celular.jpg");
+main{
+    color: white;
+    background-image: url("./img/entrega\ em\ maos-red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 header{
     width: 100vw;
-    padding: 15px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,9 +57,15 @@ button:hover {
 
 button:active {
     background-color: rgb(211, 146, 146);
-    border-bottom: 2px solid rgb(196, 56, 56);
+    border-bottom: 2px solid rgb(207, 46, 46);
 }
 
 footer{
-    
+    background-color: rgb(185, 36, 36);
+    color: white;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
 }
