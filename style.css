@@ -19,6 +19,17 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    
+}
+.sobre-nos{
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
 }
 
 header{
@@ -36,7 +47,7 @@ header{
 }
 
 nav{
-    width: 50vw;
+    width: 40vw;
     display: flex;
     justify-content:right;
     align-items: center;
@@ -111,12 +122,16 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 2em;
-<<<<<<< HEAD
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+
 }
 
 .redes-sociais{
-    width: 10%;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
 }
-=======
-}
->>>>>>> 90bfb54a6ce48fbb6fb7792f27fe56b031087992
