@@ -1,30 +1,3 @@
-.card-imagens{
-    border: 1px solid rgb(228, 14, 14);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    box-shadow: 2px 2px 5px #555;
-    border-radius: 10px;
-    background: rgb(224, 121, 121);
-}
-
-.texto-enviar{
-    text-emphasis: none;
-
-}
-
-.card-imag{
-    border: 1px solid rgb(228, 14, 14);
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: 100px;
-    box-shadow: 50px 100px 100px #555;
-    border-radius: 10px;
-    background: rgb(224, 121, 121);
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -146,7 +119,6 @@ footer{
     background: rgb(224, 121, 121);
 }
 
-
 .redes-sociais{
     width: 50%;
     padding: 30px;
@@ -159,6 +131,7 @@ footer{
   display: block;
   margin: 0 auto;
 }
+
 .campo {
   font-size: 20px;
   justify-content: center;
@@ -166,17 +139,43 @@ footer{
   margin-bottom: 1em;
   text-align: center;
 }
+
 .campo input[type='text'] {
   width: 500px;
 }
+
 .campo input[type='email'] {
   width: 500px;
 }
-.campo input:focus,
-.campo textarea:focus {
+
+.campo input:focus, .campo textarea:focus {
   background: rgb(12, 11, 12);
 }
+
 #botao-enviar {
   font-size: 15px;
   margin-bottom: 50px;
 }
+
+.campo-rastreo{
+    background-image: url(./img/caixa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.area-codigo-rastreo{
+    padding-top: 2%;
+    background-color: white;
+    border-radius: 8px;
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
