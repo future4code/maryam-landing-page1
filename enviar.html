@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <body>
 
     <header>
-        <img src="img/Log4.png" alt="logo da Log 4">
+        <img id="logo"src="img/Log4.png" alt="logo da Log 4">
         <nav>
             <button><a class="links" href="index.html"><b><p>Home</p></b></a></button>
             <button><a class="links" href="enviar.html"><p>Enviar</p></a></button>
@@ -18,40 +18,44 @@
             <button><a class="links" href="entregar.html"><p><b>Entregar</b></p></button>
         </nav>
     </header>
-
-<div class="card-imagens">
-    <img 
-    src="./img/entregaora-caixas.jpg" alt="entregando caixas">
-    <div
-    class="textos-enviar"></div>
-    <h3>Envie </h3>
-    <p>Você tem toda autonomia em orgazinar seus produtos,
-    <br>com total facilidade.<br>Suas pequenas, medias e grandes encomendas com todo carinho  </p>
-    </div>
-    <div class="card-imag">
-    <img 
-    src="./img/entregadora-mascara.jpg" alt="entregadora-mascara">
-    <div 
-    class="textos-enviar">
-    <h3>Momento Pandemia </h3>
-        <p>Seguimos todos os protocolos de segurança,<br> pode repassar para seus clientes essa segurança</p>
+        <div class="enviamos">
+            <h2>Enviamos para você e<br> para sua empresa!</h2>
         </div>
-    <div class="card-img">
-        <img src="./img/entregadora-celular.jpg" alt="mulher com fundo-rosa--mulher-celular">
-    <div 
-    class="textos-enviar">
-        <h3>Tecnologia </h3>
-        <p>Tudo na palma da mão,<br> controles de mercadoria, estoque.<br>Fazemos o melhor para servir você!</p>
-    </div>
-    <div>
-        <p class="topico"><b>Contato:</b></p>
-    </div>
-    <form>
-    <div class="campo"> <label for="nome">Nome</label> <input type="text" name="nome" id="nome" required></div>
-    <div class="campo"> <label for="email">Email</label> <input type="email" name="email" id="email" required></div>
-    <div class="campo"> <label for="mensagem">Mensagem </label> <textarea name="mensagem" id="mensagem" cols="100" rows="15"></textarea></div>
-    <div class="campo"> <button id="botao-enviar" type="submit">Enviar</button></div></form>
-    
+    <section class="parte-central">
+        <div class="card-imagens">
+            <img src="./img/entregaora-caixas.jpg" alt="entregando caixas">
+            <div class="textos">
+                <h3>Envie </h3>
+                <p>Você tem toda autonomia em orgazinar seus produtos,<br>com total facilidade.<br>Suas pequenas, medias e grandes encomendas com todo carinho  </p>
+            </div>
+        </div>
+        <div 
+        class="card-imag">
+            <img src="./img/entregadora-mascara.jpg" alt="entregadora-mascara"></imgsrc>
+            <div class="textos">
+                <h3>Momento Pandemia </h3>
+                <p>Seguimos todos os protocolos de segurança,<br> pode repassar para seus clientes essa segurança</p>
+            </div>
+        </div>
+        <div class="card-img">
+            <img class="foto-entrega" src="./img/entregadora-celular.jpg" alt="mulher com fundo-rosa--mulher-celular">
+            <div class="textos"></div>
+                <h3>Tecnologia </h3>
+                <p>Tudo na palma da mão,<br> controles de mercadoria, estoque.<br>Fazemos o melhor para servir você!</p>
+            </div>
+        </div>
+        
+        
+    </section>
+        <div>
+            <p class="topico"><b>Contato:</b></p>
+        </div>
+        <form>
+            <div class="campo"> <label for="nome">Nome</label> <input type="text" name="nome" id="nome" required></div>
+            <div class="campo"> <label for="email">Email</label> <input type="email" name="email" id="email" required></div>
+            <div class="campo"> <label for="mensagem"><br>Mensagem</label> <textarea name="mensagem" id="mensagem" cols="100" rows="15"></textarea></div>
+            <div class="campo"> <button id="botao-enviar" type="submit">Enviar</button></div>
+        </form>
     <footer>
         <br>
         <p><b>Visite nossas redes sociais</b></p>
