@@ -77,42 +77,6 @@ button:active {
     background-color: rgb(212, 171, 171);
     border-bottom: 2px solid rgb(207, 46, 46);
 }
-/* 
-#enviar{
-    display: inline;
-    grid-template-columns: 60px 1fr 60px;
-    grid-template-columns: 400px 1fr;
-}
-
-section{
-    display: flex;
-    justify-content: flex-end;
-    row-gap: 20px;
-    column-gap: 20px;
-    margin: 0 30px 10px;
-}   
-
-.icone-texto{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 5px;
-    padding: 5px;
-    padding-bottom: 4px solid black;
-}
-
-.icone{
-    height: 40px;
-    width: 50px;
-    padding: 50px;
-    margin-right: 10px;
-}
-
-.card-imagens{
-    display: grid;
-    justify-content:flex-start;
-    row-gap: 20px;
-} */
 
 footer{
     background-color: crimson;
