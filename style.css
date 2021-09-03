@@ -1,3 +1,30 @@
+.card-imagens{
+    border: 1px solid rgb(228, 14, 14);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px #555;
+    border-radius: 10px;
+    background: rgb(224, 121, 121);
+}
+
+.texto-enviar{
+    text-emphasis: none;
+
+}
+
+.card-imag{
+    border: 1px solid rgb(228, 14, 14);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: 100px;
+    box-shadow: 50px 100px 100px #555;
+    border-radius: 10px;
+    background: rgb(224, 121, 121);
+}
+
 *{
     margin: 0;
     padding: 0;
