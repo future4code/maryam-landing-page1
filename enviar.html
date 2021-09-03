@@ -12,14 +12,14 @@
     <header>
         <img src="img/Log4.png" alt="logo da Log 4">
         <nav>
-            <button><a class="links" href="index.html"><p>Home</p></a></button>
-            <button><a class="links" href="enviar.html"><p><b>Enviar</b></p></a></button>
+            <button><a class="links" href="index.html"><b><p>Home</p></b></a></button>
+            <button><a class="links" href="enviar.html"><p>Enviar</p></a></button>
             <button><a class="links" href="rastrear.html"><b><p>Rastrear</b></p></a></button>
             <button><a class="links" href="entregar.html"><p><b>Entregar</b></p></button>
         </nav>
     </header>
 
-  <div class="card-imagens">
+<div class="card-imagens">
     <img 
     src="./img/entregaora-caixas.jpg" alt="entregando caixas">
     <div
@@ -43,6 +43,14 @@
         <h3>Tecnologia </h3>
         <p>Tudo na palma da mão,<br> controles de mercadoria, estoque.<br>Fazemos o melhor para servir você!</p>
     </div>
+    <div>
+        <p class="topico"><b>Contato:</b></p>
+    </div>
+    <form>
+    <div class="campo"> <label for="nome">Nome</label> <input type="text" name="nome" id="nome" required></div>
+    <div class="campo"> <label for="email">Email</label> <input type="email" name="email" id="email" required></div>
+    <div class="campo"> <label for="mensagem">Mensagem </label> <textarea name="mensagem" id="mensagem" cols="100" rows="15"></textarea></div>
+    <div class="campo"> <button id="botao-enviar" type="submit">Enviar</button></div></form>
     
     <footer>
         <br>
