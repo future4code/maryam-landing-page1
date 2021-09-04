@@ -166,8 +166,8 @@ footer {
   width: 130% 20%;
   height: 100%;
   padding: 10%;
-  /* position: relative; */
 }
+
 .parte-central {
   display: grid;
   grid-template: center;
@@ -388,7 +388,6 @@ a:active {
 
   .sobre-nos {
     font-size: 1.6em;
-     width: 70%;
   }
 
   footer {
@@ -398,7 +397,6 @@ a:active {
   }
   
   #texto-visite{
-    color: white;
     text-align: center;
   }
   
