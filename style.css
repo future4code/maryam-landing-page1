@@ -7,10 +7,9 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   display: grid;
-  grid-template-rows: 300px 800px 200px;
 }
 
 main {
@@ -36,6 +35,7 @@ main {
 
 header {
   width: 100vw;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -82,6 +82,7 @@ button:active {
 footer {
   background-color: crimson;
   color: white;
+  bottom: 0;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -100,15 +101,15 @@ footer {
 }
 
 .textos {
-  text-emphasis: none;
-  font-weight: normal;
-  height: 20%;
+  font-size: 2em;
+  text-align: center;
 }
 
 .topico {
+  text-align: center;
   font-size: 30px;
   display: block;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .campo {
@@ -120,20 +121,22 @@ footer {
 }
 
 .campo input[type='text'] {
-  width: 500px;
+  width: 40vw;
 }
 
 .campo input[type='email'] {
-  width: 500px;
+  width: 40vw;
 }
 
-.campo input:focus,
-.campo textarea:focus {
-  background: rgb(12, 11, 12);
+.campo textarea{
+  width: 50%;
+  height: 200px;
 }
 
 #botao-enviar {
+  border-color: 0.5 solid crimson;
   font-size: 15px;
+  color: crimson;
   margin-bottom: 50px;
 }
 
@@ -161,33 +164,38 @@ footer {
   align-items: center;
 }
 .foto-entrega {
-  display: flex;
-  justify-content: space-between;
-  width: 130% 20%;
-  height: 100%;
-  padding: 10%;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-.parte-central {
-  display: grid;
-  grid-template: center;
-  background-color: pink;
-  text-align: center;
-  justify-content: space-evenly;
-  box-shadow: 50px 100px 100px pink;
-  padding: 40%;
-  margin: 20px;
-}
 .box {
-  background-color: red;
+  background-color: rgb(150, 41, 41);
   width: 100px;
   height: 100px;
   margin: 5px;
 }
 .enviamos {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 1.5em;
   text-align: center;
-  box-shadow: 50px 100px 100px pink;
 }
+
+.card-imagens{
+  background-color: crimson;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.formulario-contato-enviar{
+  padding-top: 20px;
+
+}
+
 .pagina {
   background-color: pink;
   border-radius: 8px;
@@ -212,9 +220,7 @@ section.hero {
 section.hero .container {
   width: 90%;
   max-width: 980px;
-
   margin: auto;
-
   display: flex;
 }
 
@@ -263,6 +269,7 @@ section.hero p {
   background-color: #7159c1;
   filter: brightness(90%);
 }
+
 .buttonone {
   display: inline-block;
   font-size: 1.6rem;
@@ -279,32 +286,30 @@ section.hero p {
 .buttonone:hover {
   opacity: 0.9;
 }
+
 #form {
   width: 100%;
-
   background: pink;
-
   padding: 80px 0;
   margin: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 #form form {
   width: 90%;
   max-width: 980px;
-
   background: white;
-
   padding: 40px;
-
   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15),
     0px 10px 20px -10px rgba(0, 0, 0, 0.1);
 }
+
 #form h3 {
   margin-bottom: 30px;
 }
+
 #form form label {
   display: none;
 }
@@ -356,9 +361,11 @@ a:active {
   width: 100%;
 }
 
+
 @media screen and (max-device-width:500px) {
 
   header{
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -403,6 +410,42 @@ a:active {
     width: 20%;
     padding: 5px;
   }
+
+  .enviamos {
+    font-size: 1em;
+  }
+
+  .card-imagens{
+    display: grid;
+    justify-self: center;
+  }
+
+  .textos {
+    font-size: 1em;
+  }
+
+  .foto-entrega {
+    width: 80%;
+    justify-self: center;
+  }
+
+  .campo input[type='text'] {
+    width: 70%;
+  }
+  
+  .campo input[type='email'] {
+    width: 70%;
+  }
+  
+  .campo textarea{
+    width: 85%;
+    height: 250px;
+  }
+
+
+
+
+
 
   .campo-rastreo {
     background-repeat: repeat;
