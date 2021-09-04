@@ -10,11 +10,11 @@ body {
   width: 100vw;
   height: 100%;
   display: grid;
-  grid-template-rows: 300px 600px 200px;
+  grid-template-rows: 300px 800px 200px;
 }
 
 main {
-  height: 900px;
+  height: 800px;
   color: white;
   background-image: url('./img/entrega\ em\ maos-red.jpg');
   background-repeat: no-repeat;
@@ -36,10 +36,9 @@ main {
 
 header {
   width: 100vw;
-  padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: pink;
 }
 
@@ -86,22 +85,24 @@ footer {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 2em;
-  height: 150px;
-  display: flex;
-  justify-content: space-evenly;
+  font-size: 3em;
+  height: 200px;
+  justify-content: space-around;
 }
+
+#texto-visite{
+  color: white;
+}
+
+.icones-sociais{
+  width: 25%;
+  padding: 10px;
+}
+
 .textos {
   text-emphasis: none;
   font-weight: normal;
   height: 20%;
-}
-.redes-sociais {
-  width: 50%;
-  padding: 30px;
-  display: flex;
-  justify-content: space-around;
 }
 
 .topico {
@@ -354,4 +355,59 @@ a:active {
   border-radius: 10px;
   text-align: center;
   width: 100%;
+}
+
+@media screen and (max-device-width:500px) {
+
+  header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  #logo {
+    justify-self: center;
+    width: 80%;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    font-size: 1em;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+
+  .sobre-nos {
+    font-size: 1.6em;
+     width: 70%;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 1.2em;
+    height: 250px;
+  }
+  
+  #texto-visite{
+    color: white;
+    text-align: center;
+  }
+  
+  .icones-sociais{
+    width: 20%;
+    padding: 5px;
+  }
+
+
+
+
 }
