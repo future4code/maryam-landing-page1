@@ -143,7 +143,7 @@ footer {
   background-size: cover;
   background-position: center center;
   width: 100vw;
-  height: 700px;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -228,7 +228,6 @@ section.hero p {
   width: 90%;
   max-width: 980px;
   margin: auto;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
@@ -403,6 +402,29 @@ a:active {
   .icones-sociais{
     width: 20%;
     padding: 5px;
+  }
+
+  .campo-rastreo {
+    background-repeat: repeat;
+    background-size: contain;
+    background-position:top;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .area-codigo-rastreo {
+    padding-top: 10%;
+    border-radius: 0;
+    width: 100%;
+    height: 30%;
+    align-items:flex-end;
+  }
+
+  input{
+    border-radius: 3px;
   }
 
 
