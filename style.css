@@ -64,6 +64,7 @@ button {
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
+  margin-top: 10px;
   margin-right: 5px;
   background-color: white;
 }
@@ -75,7 +76,7 @@ button:hover {
 }
 
 button:active {
-  background-color: rgb(212, 171, 171);
+  background-color: rgb(247, 210, 210);
   border-bottom: 2px solid rgb(207, 46, 46);
 }
 
@@ -88,10 +89,11 @@ footer {
   align-items: center;
   font-size: 3em;
   height: 200px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #texto-visite{
+  margin-left: 20px;
   color: white;
 }
 
@@ -109,14 +111,13 @@ footer {
   text-align: center;
   font-size: 30px;
   display: block;
-  margin: 10px;
+  margin:5 px;
 }
 
 .campo {
   font-size: 20px;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -137,7 +138,7 @@ footer {
   border-color: 0.5 solid crimson;
   font-size: 15px;
   color: crimson;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .campo-rastreo {
@@ -176,6 +177,7 @@ footer {
   margin: 5px;
 }
 .enviamos {
+  background-color: rgb(243, 238, 231);
   padding-top: 20px;
   padding-bottom: 25px;
   font-size: 1.5em;
@@ -192,82 +194,48 @@ footer {
 }
 
 .formulario-contato-enviar{
-  padding-top: 20px;
+  background-color: rgb(243, 238, 231);
+  height: 500px;
+  padding-top: 10px;
 
 }
 
-.pagina {
-  background-color: pink;
-  border-radius: 8px;
-  text-align: center;
+.background-entregar{
+  height: 800px;
+  background-image: url('./img/close-up-mulher-segurando-a-caixa-com-a-prestacao-de-servicos-e-segurando-uma-placa_1150-8870.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-.imagemone {
-  padding: top 100vw;
-  position: relative;
-  padding-bottom: 100%;
-  justify-content: space-between;
-  display: flex;
-}
-.container {
-  display: flex;
-}
-section.hero {
-  margin: 80px 0;
+  text-align: center;
 }
 
-section.hero .container {
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
-  display: flex;
+.hero {
+  font-size: 1.5em;
+  width: 80%;
 }
 
-section.hero p {
-  color: rgb(154, 142, 191);
-  font-size: 1.8rem;
-  line-height: 3.2rem;
-  margin: 10px 0px 0px;
+.subtitulo {
+  color: white;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 30px;
 }
+
 .cards {
-  width: 90%;
-  max-width: 980px;
+  width: 100%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
-}
-.text--medium {
-  font-size: 1.6rem;
-  line-height: 2.6rem;
-  font-weight: 400;
-  color: black;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-.content {
-  margin: 20px;
+  text-align: center;
+  background-color: rgb(243, 238, 231);
 }
 
 .title {
   margin-bottom: 20px;
-}
-
-.info {
-  display: flex;
-  align-self: end;
-  align-items: center;
-}
-
-.price {
-  margin-left: auto;
-  padding: 5px 20px;
-  border-radius: 20px;
-  background-color: #7159c1;
-  filter: brightness(90%);
 }
 
 .buttonone {
@@ -288,8 +256,8 @@ section.hero p {
 }
 
 #form {
+  background-color: rgb(243, 238, 231);
   width: 100%;
-  background: pink;
   padding: 80px 0;
   margin: 0;
   display: flex;
@@ -300,21 +268,20 @@ section.hero p {
 #form form {
   width: 90%;
   max-width: 980px;
-  background: white;
+  border-radius: 5px;
+  background: rgba(248, 224, 224, 0.966);
   padding: 40px;
   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15),
     0px 10px 20px -10px rgba(0, 0, 0, 0.1);
 }
 
-#form h3 {
+#form h2 {
+  text-align: center;
   margin-bottom: 30px;
 }
 
-#form form label {
-  display: none;
-}
-
 .form-group {
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -334,9 +301,6 @@ section.hero p {
   font-size: 1.6rem;
 }
 
-#form .button {
-  margin: 20px 8px 10px;
-}
 .buttonone:link,
 a:visited,
 a:active {
@@ -347,20 +311,6 @@ a:active {
   color: #000;
   font-size: 150%;
 }
-.titulo {
-  font-size: 2em;
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-}
-.subtitulo {
-  font-size: 2em;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
-  text-align: center;
-  width: 100%;
-}
-
 
 @media screen and (max-device-width:500px) {
 
@@ -399,7 +349,7 @@ a:active {
   footer {
     text-align: center;
     font-size: 1.2em;
-    height: 250px;
+    height: 200px;
   }
   
   #texto-visite{
@@ -413,6 +363,9 @@ a:active {
 
   .enviamos {
     font-size: 1em;
+    width: 100vw;
+    padding: 10px;
+    
   }
 
   .card-imagens{
@@ -427,6 +380,7 @@ a:active {
   .foto-entrega {
     width: 80%;
     justify-self: center;
+
   }
 
   .campo input[type='text'] {
@@ -441,11 +395,6 @@ a:active {
     width: 85%;
     height: 250px;
   }
-
-
-
-
-
 
   .campo-rastreo {
     background-repeat: repeat;
@@ -470,7 +419,39 @@ a:active {
     border-radius: 3px;
   }
 
+  .hero {
+    font-size: 1em;
+    width: 80%;
+  }
+  
+  .background-entregar{
+    height: 700px;
+    width: 100vw;
+  }
 
+  .subtitulo {
+    color: white;
+    font-size: 1.5em;
+  }
 
+  .cards {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  #form {
+    width: 100vw;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .form-group .input-control {
+    flex: 1;
+    display: block;
+    margin: 2px;
+    padding: 5px;
+    font-size: 1em;
+  }
 
 }
