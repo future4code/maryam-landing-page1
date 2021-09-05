@@ -8,62 +8,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
         <img id="logo"src="img/Log4.png" alt="logo da Log 4">
         <nav>
-            <button><a class="links" href="index.html"><b><p>Home</p></b></a></button>
+            <button><a class="links" href="index.html"><p><b>Home</b></p></a></button>
             <button><a class="links" href="enviar.html"><p>Enviar</p></a></button>
-            <button><a class="links" href="rastrear.html"><b><p>Rastrear</b></p></a></button>
+            <button><a class="links" href="rastrear.html"><p><b>Rastrear</b></p></a></button>
             <button><a class="links" href="entregar.html"><p><b>Entregar</b></p></button>
         </nav>
     </header>
-        <div class="enviamos">
-            <h2>Enviamos para você e<br> para sua empresa!</h2>
-        </div>
-    <section class="parte-central">
+
+    <div class="enviamos">
+        <h2>Enviamos para você e<br> para sua empresa!</h2>
+    </div>
+    <section>
         <div class="card-imagens">
-            <img src="./img/entregaora-caixas.jpg" alt="entregando caixas">
+            <img class="foto-entrega" src="./img/empreendedora.jpg" alt="entregando caixas">
             <div class="textos">
-                <h3>Envie </h3>
-                <p>Você tem toda autonomia em orgazinar seus produtos,<br>com total facilidade.<br>Suas pequenas, medias e grandes encomendas com todo carinho  </p>
+                <p><h3>Envie </h3>
+                Você tem toda autonomia em orgazinar seus produtos, com total facilidade. Suas pequenas, médias e grandes encomendas entregues com todo carinho e agilidade.</p>
             </div>
         </div>
-        <div 
-        class="card-imag">
-            <img src="./img/entregadora-mascara.jpg" alt="entregadora-mascara"></imgsrc>
+        <div class="card-imagens">
+            <img class="foto-entrega" src="./img/entregadora-mascara.jpg" alt="entregadora-mascara"></imgsrc>
             <div class="textos">
-                <h3>Momento Pandemia </h3>
-                <p>Seguimos todos os protocolos de segurança,<br> pode repassar para seus clientes essa segurança</p>
+                <p><h3>Momento Pandemia </h3>
+                Seguimos todos os protocolos de segurança, <br>pode repassar para seus clientes essa segurança.</p>
             </div>
         </div>
-        <div class="card-img">
-            <img class="foto-entrega" src="./img/entregadora-celular.jpg" alt="mulher com fundo-rosa--mulher-celular">
-            <div class="textos"></div>
-                <h3>Tecnologia </h3>
-                <p>Tudo na palma da mão,<br> controles de mercadoria, estoque.<br>Fazemos o melhor para servir você!</p>
+        <div class="card-imagens">
+            <img class="foto-entrega" src="./img/celular-caixas.jpg"  alt="celular com caixas">
+            <div class="textos">
+                <p><h3>Tecnologia </h3>
+                Tudo na palma da mão, controles de mercadoria e localização em tempo real. Fazemos o melhor para servir você!</p>
             </div>
         </div>
-        
-        
     </section>
-        <div>
-            <p class="topico"><b>Contato:</b></p>
-        </div>
+    <div class="formulario-contato-enviar">
+            <p class="topico"><b>Contato</b></p>
         <form>
             <div class="campo"> <label for="nome">Nome</label> <input type="text" name="nome" id="nome" required></div>
             <div class="campo"> <label for="email">Email</label> <input type="email" name="email" id="email" required></div>
-            <div class="campo"> <label for="mensagem"><br>Mensagem</label> <textarea name="mensagem" id="mensagem" cols="100" rows="15"></textarea></div>
+            <div class="campo"> <label for="mensagem"><br>Mensagem<br><br></label> <textarea name="mensagem" id="mensagem"></textarea></div>
             <div class="campo"> <button id="botao-enviar" type="submit">Enviar</button></div>
         </form>
+    </div>
     <footer>
-        <br>
-        <p><b>Visite nossas redes sociais</b></p>
-        <div class=".redes-sociais">
-            <img src="./img/facebook (1).png" alt="">
-            <img src="./img/instagram (3).png" alt="">
-            <img src="./img/logotipo-social-do-twitter.png" alt="">
+        <p id="texto-visite">Visite nossas redes sociais</p>
+        <div>
+            <a href="https://pt-br.facebook.com/"><img class="icones-sociais" src="./img/facebook (1).png" alt="icone facebook"></a>
+            <a href="https://www.instagram.com/"><img class="icones-sociais" src="./img/instagram (3).png" alt="icone instagram"></a>
+            <a href="https://twitter.com/"><img class="icones-sociais" src="./img/logotipo-social-do-twitter.png" alt="icone twitter"></a>
         </div>
-    </footer>  
+    </footer> 
 </body>
 </html>
