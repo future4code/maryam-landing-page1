@@ -1,4 +1,4 @@
-# landing-page-template
+# Landing-page-template
 
 ## Sobre o Projeto LOG4-Entregar Sem Parar
 Log4 é uma empresa do grupo Trajano, com o intuito de gerar uma fonte de renda extra, tanto para os entregadores como para vendedores (PF/PJ) entregar seus produtos.
